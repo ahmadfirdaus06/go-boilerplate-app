@@ -155,9 +155,6 @@ func GenerateResourceRoutes(resourceName string, config GenerateResourceRoutesCo
 				routesWithId.PUT("", config.UpdateById.Override)
 			} else {
 				routesWithId.PUT("", func(c echo.Context) error {
-					// u := new(struct {
-					// 	Email string `json:"email" validate:"email"`
-					// })
 
 					var inputs any
 
@@ -170,7 +167,7 @@ func GenerateResourceRoutes(resourceName string, config GenerateResourceRoutesCo
 							return err
 						}
 					} else {
-						if err := c.Bind(inputs); err != nil {
+						if err := c.Bind(&inputs); err != nil {
 							return echo.NewHTTPError(http.StatusBadRequest, err.Error())
 						}
 					}
