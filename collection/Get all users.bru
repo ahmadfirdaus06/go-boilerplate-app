@@ -1,0 +1,15 @@
+meta {
+  name: Get all users
+  type: http
+  seq: 4
+}
+
+get {
+  url: {{apiUrl}}/users
+  body: json
+  auth: inherit
+}
+
+body:form-urlencoded {
+  email: some@email.com
+}

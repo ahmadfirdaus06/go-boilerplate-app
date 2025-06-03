@@ -1,0 +1,23 @@
+meta {
+  name: Update user profile
+  type: http
+  seq: 8
+}
+
+put {
+  url: {{apiUrl}}/users/:id
+  body: json
+  auth: inherit
+}
+
+params:path {
+  id: 683d7ee0fbc48a7aa0a72c47
+}
+
+body:json {
+  {
+    "_id": "Aduhhh",
+    "username": "sddfdgfff123",
+    "firstName": "lalaport"
+  }
+}

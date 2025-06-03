@@ -1,0 +1,17 @@
+meta {
+  name: Verify code
+  type: http
+  seq: 9
+}
+
+post {
+  url: {{apiUrl}}/auth/verification/code/verify
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "verificationCode": "188608"
+  }
+}

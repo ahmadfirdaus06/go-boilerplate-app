@@ -1,0 +1,18 @@
+meta {
+  name: Send verification code
+  type: http
+  seq: 8
+}
+
+post {
+  url: {{apiUrl}}/auth/verification/code/send
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "usernameOrEmail": "some@email.com",
+    "password": "Abcd1234"
+  }
+}

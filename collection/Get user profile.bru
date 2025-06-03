@@ -1,0 +1,18 @@
+meta {
+  name: Get user profile
+  type: http
+  seq: 5
+}
+
+get {
+  url: {{apiUrl}}/auth
+  body: none
+  auth: inherit
+}
+
+body:json {
+  {
+    "usernameOrEmail": "user",
+    "password": "Abcd1234"
+  }
+}

@@ -1,0 +1,19 @@
+package main
+
+import (
+	"go-boilerplate-backend/app"
+	"go-boilerplate-backend/app/externals"
+
+	"github.com/labstack/echo/v4"
+)
+
+func main() {
+	// simple hello world app
+	app.InitHttpApp(&app.HttpAppConfig{
+		Routes: func(g *echo.Group, aae *externals.AllAppExternals) {
+			// Test this endpoint using Postman, curl
+			g.GET("/hello-world", func(c echo.Context) error {
+				return c.String(200, "Hello World!")
+			})
+		}})
+}
