@@ -2,14 +2,15 @@ package services
 
 import (
 	"fmt"
-	"go-boilerplate-backend/app/externals"
-	"go-boilerplate-backend/app/models"
-	"go-boilerplate-backend/app/repo"
-	"go-boilerplate-backend/app/types"
-	"go-boilerplate-backend/app/utils"
 	"log"
 	"math/rand"
 	"time"
+
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/externals"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/models"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/repo"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/types"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/utils"
 
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/labstack/echo/v4"

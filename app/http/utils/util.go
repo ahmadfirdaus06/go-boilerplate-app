@@ -2,12 +2,6 @@ package utils
 
 import (
 	"fmt"
-	"go-boilerplate-backend/app/externals"
-	"go-boilerplate-backend/app/http/types"
-	"go-boilerplate-backend/app/models"
-	"go-boilerplate-backend/app/repo"
-	appTypes "go-boilerplate-backend/app/types"
-	"go-boilerplate-backend/app/utils"
 	"log"
 	"net/http"
 	"net/url"
@@ -17,6 +11,13 @@ import (
 	"strings"
 	"text/tabwriter"
 	"unicode"
+
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/externals"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/http/types"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/models"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/repo"
+	appTypes "github.com/ahmadfirdaus06/go-boilerplate-backend/app/types"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/utils"
 
 	"github.com/gertd/go-pluralize"
 	"github.com/labstack/echo/v4"

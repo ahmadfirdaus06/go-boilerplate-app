@@ -1,7 +1,7 @@
 package middlewares
 
 import (
-	"go-boilerplate-backend/app/http/utils"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/http/utils"
 
 	"github.com/labstack/echo/v4"
 )

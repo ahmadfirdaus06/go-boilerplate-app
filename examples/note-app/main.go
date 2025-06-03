@@ -1,13 +1,14 @@
 package main
 
 import (
-	"go-boilerplate-backend/app"
-	"go-boilerplate-backend/app/externals"
-	"go-boilerplate-backend/app/http/types"
-	"go-boilerplate-backend/app/http/utils"
-	appUtils "go-boilerplate-backend/app/utils"
 	"log"
 	"time"
+
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/externals"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/http/types"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/http/utils"
+	appUtils "github.com/ahmadfirdaus06/go-boilerplate-backend/app/utils"
 
 	"github.com/labstack/echo/v4"
 )

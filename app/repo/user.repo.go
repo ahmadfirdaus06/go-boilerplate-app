@@ -2,7 +2,8 @@ package repo
 
 import (
 	"context"
-	"go-boilerplate-backend/app/types"
+
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/types"
 
 	"go.mongodb.org/mongo-driver/v2/bson"
 	"go.mongodb.org/mongo-driver/v2/mongo"

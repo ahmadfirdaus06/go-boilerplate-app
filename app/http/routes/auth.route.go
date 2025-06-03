@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"go-boilerplate-backend/app/externals"
-	"go-boilerplate-backend/app/http/controllers"
-	"go-boilerplate-backend/app/http/middlewares"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/externals"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/http/controllers"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/http/middlewares"
 
 	"github.com/labstack/echo/v4"
 )

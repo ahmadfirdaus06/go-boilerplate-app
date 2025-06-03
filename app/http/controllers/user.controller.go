@@ -1,11 +1,12 @@
 package controllers
 
 import (
-	"go-boilerplate-backend/app/externals"
-	"go-boilerplate-backend/app/http/utils"
-	"go-boilerplate-backend/app/services"
-	appUtils "go-boilerplate-backend/app/utils"
 	"time"
+
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/externals"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/http/utils"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/services"
+	appUtils "github.com/ahmadfirdaus06/go-boilerplate-backend/app/utils"
 
 	"github.com/labstack/echo/v4"
 )

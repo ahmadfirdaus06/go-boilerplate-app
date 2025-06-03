@@ -1,13 +1,14 @@
 package middlewares
 
 import (
-	"go-boilerplate-backend/app/externals"
-	"go-boilerplate-backend/app/models"
-	"go-boilerplate-backend/app/repo"
-	"go-boilerplate-backend/app/services"
-	"go-boilerplate-backend/app/types"
-	"go-boilerplate-backend/app/utils"
 	"net/http"
+
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/externals"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/models"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/repo"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/services"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/types"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/utils"
 
 	"github.com/golang-jwt/jwt/v5"
 	echojwt "github.com/labstack/echo-jwt/v4"

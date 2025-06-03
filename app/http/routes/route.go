@@ -1,11 +1,11 @@
 package routes
 
 import (
-	"go-boilerplate-backend/app/externals"
-	"go-boilerplate-backend/app/http/controllers"
-	"go-boilerplate-backend/app/http/types"
-	"go-boilerplate-backend/app/http/utils"
-	"go-boilerplate-backend/app/models"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/externals"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/http/controllers"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/http/types"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/http/utils"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/models"
 
 	"github.com/labstack/echo/v4"
 )

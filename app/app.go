@@ -2,10 +2,11 @@ package app
 
 import (
 	"fmt"
-	"go-boilerplate-backend/app/externals"
-	"go-boilerplate-backend/app/http/middlewares"
-	"go-boilerplate-backend/app/http/utils"
 	"reflect"
+
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/externals"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/http/middlewares"
+	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/http/utils"
 
 	"github.com/go-playground/validator/v10"
 	"github.com/labstack/echo/v4"
