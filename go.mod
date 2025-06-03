@@ -1,4 +1,4 @@
-module go-boilerplate-backend
+module github.com/ahmadfirdaus06/go-boilerplate-backend
 
 go 1.24.3
 
