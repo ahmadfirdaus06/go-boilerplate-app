@@ -3,10 +3,10 @@ package controllers
 import (
 	"time"
 
-	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/externals"
-	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/http/utils"
-	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/services"
-	appUtils "github.com/ahmadfirdaus06/go-boilerplate-backend/app/utils"
+	"github.com/ahmadfirdaus06/go-boilerplate-app/app/externals"
+	"github.com/ahmadfirdaus06/go-boilerplate-app/app/http/utils"
+	"github.com/ahmadfirdaus06/go-boilerplate-app/app/services"
+	appUtils "github.com/ahmadfirdaus06/go-boilerplate-app/app/utils"
 
 	"github.com/labstack/echo/v4"
 )

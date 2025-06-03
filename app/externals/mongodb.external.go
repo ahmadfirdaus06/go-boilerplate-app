@@ -3,7 +3,7 @@ package externals
 import (
 	"context"
 
-	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/utils"
+	"github.com/ahmadfirdaus06/go-boilerplate-app/app/utils"
 
 	"go.mongodb.org/mongo-driver/v2/mongo"
 	"go.mongodb.org/mongo-driver/v2/mongo/options"

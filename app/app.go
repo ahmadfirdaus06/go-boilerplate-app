@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/externals"
-	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/http/middlewares"
-	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/http/utils"
+	"github.com/ahmadfirdaus06/go-boilerplate-app/app/externals"
+	"github.com/ahmadfirdaus06/go-boilerplate-app/app/http/middlewares"
+	"github.com/ahmadfirdaus06/go-boilerplate-app/app/http/utils"
 
 	"github.com/go-playground/validator/v10"
 	"github.com/labstack/echo/v4"

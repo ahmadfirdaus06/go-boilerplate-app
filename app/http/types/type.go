@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/externals"
+	"github.com/ahmadfirdaus06/go-boilerplate-app/app/externals"
 
 	"github.com/labstack/echo/v4"
 )

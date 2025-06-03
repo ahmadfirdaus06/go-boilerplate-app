@@ -37,7 +37,7 @@
 
 ### Setup and Quick Start
 
-1. Clone this repo using SSH ``git clone git@github.com:ahmadfirdaus06/go-boilerplate-backend.git``
+1. Clone this repo using SSH ``git clone git@github.com:ahmadfirdaus06/go-boilerplate-app.git``
 
 2. Run `go mod tidy` to install project dependencies
 

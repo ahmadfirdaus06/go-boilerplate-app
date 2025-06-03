@@ -12,12 +12,12 @@ import (
 	"text/tabwriter"
 	"unicode"
 
-	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/externals"
-	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/http/types"
-	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/models"
-	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/repo"
-	appTypes "github.com/ahmadfirdaus06/go-boilerplate-backend/app/types"
-	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/utils"
+	"github.com/ahmadfirdaus06/go-boilerplate-app/app/externals"
+	"github.com/ahmadfirdaus06/go-boilerplate-app/app/http/types"
+	"github.com/ahmadfirdaus06/go-boilerplate-app/app/models"
+	"github.com/ahmadfirdaus06/go-boilerplate-app/app/repo"
+	appTypes "github.com/ahmadfirdaus06/go-boilerplate-app/app/types"
+	"github.com/ahmadfirdaus06/go-boilerplate-app/app/utils"
 
 	"github.com/gertd/go-pluralize"
 	"github.com/labstack/echo/v4"

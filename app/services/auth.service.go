@@ -6,11 +6,11 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/externals"
-	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/models"
-	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/repo"
-	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/types"
-	"github.com/ahmadfirdaus06/go-boilerplate-backend/app/utils"
+	"github.com/ahmadfirdaus06/go-boilerplate-app/app/externals"
+	"github.com/ahmadfirdaus06/go-boilerplate-app/app/models"
+	"github.com/ahmadfirdaus06/go-boilerplate-app/app/repo"
+	"github.com/ahmadfirdaus06/go-boilerplate-app/app/types"
+	"github.com/ahmadfirdaus06/go-boilerplate-app/app/utils"
 
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/labstack/echo/v4"
